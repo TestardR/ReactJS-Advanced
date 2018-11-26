@@ -5,7 +5,6 @@ const config = {
   resolve: {
     modules: [path.resolve('./lib'), path.resolve('./node_modules')]
   },
-  // entry: ['babel-polyfill', './lib/renderers/dom.js'],
   entry: {
     vendor: [
       'babel-polyfill',
